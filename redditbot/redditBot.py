@@ -2,7 +2,7 @@ import praw
 import re
 
 # Matches all non-alphanumerics
-pattern = re.compile('[\W_\]+')
+# pattern = re.compile('[\W_\]+')
 
 # Import the list of books {title: upvotes}
 bookData = {'i am america and so can you': 0, 'the catcher in the rye': 0,

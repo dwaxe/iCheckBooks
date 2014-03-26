@@ -14,3 +14,5 @@ submission = next(submissions)
 comments = praw.helpers.flatten_tree(submission.comments)
 
 comment = comments[0]
+
+print('subreddit r/books > submissions top 10 > submission first > comments > comment')
