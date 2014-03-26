@@ -60,11 +60,142 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+    background-color: #EEEEEE;
+}
 
+.topBar{
+    background-color:#FFFFFF;
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
 
+}
 
+.navDiv{
+    width: auto;
+    height: 20px;
+    padding: 10px;
+    clear:none;
+}
 
+.logoDiv{
+    width:150px;
+    clear:none;
+    margin-top:5px;
+    padding-left:20px
+}
 
+.topListDiv{
+    text-align:center;
+    width:80%;
+    margin-top:-48px;
+    margin-left:150px
+    
+}
+
+.topList li{
+    display: block;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    list-style-type:none;
+}
+
+.userInfoDiv{
+     margin: 10px;
+     padding: 5px;
+     color: #FF0000;
+    float:right;
+    margin-top:3px;
+}
+
+.graphicDiv{
+    width: 100%;
+    height: 250px;
+    background-color:#000000;
+}
+
+.contentTitleDiv{
+    width: 860px;
+    height: 5px;
+    margin: 0 auto;
+    background-color:#FFFFFF;
+    margin-top:20px;
+    padding:20px;
+    margin-bottom:10px;
+
+}
+
+.listTitle{
+    width:200px;
+    float:left;
+    margin-left:20px;
+    font-size:23px;
+    margin-top:-10px;
+}
+
+.filterDiv{
+    width:auto;
+    float:right;
+    margin-right:40px;
+}
+
+.contentDiv{
+    margin: 0 auto;
+    width: 820px;
+    background-color: #FFFFFF;
+    margin-top:20px;
+    padding:40px
+    
+}
+
+.itemDiv{
+    padding:10px;
+}
+
+.numberDiv{
+    float:left;
+    font-size:24px;
+    font-weight:800;
+    
+}
+
+.bookImg{
+    float:left;
+    width:45px;
+    height:56px;
+    background-color:#000000;
+    margin: 10px;
+}
+
+.bookTitle{
+    float:left;
+}
+
+.bookAuthor{
+    float:left;
+}
+
+.bookYear{
+    float:left;
+}
+
+.actionsDiv{
+    float:left;
+}
+
+.favoriteButton{
+    float:left;
+}
+
+.commentsButton{
+    float:left;
+}
+
+.checkBox{
+    float:left;
+}
 
 
 
