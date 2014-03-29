@@ -82,7 +82,7 @@ body{
 .logoDiv{
     width:150px;
     clear:none;
-    margin-top:5px;
+    margin-top:0px;
     padding-left:20px
 }
 
@@ -99,7 +99,16 @@ body{
     float: left;
     margin: 5px;
     padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
     list-style-type:none;
+}
+
+.topList li:hover{
+    background-color:#2693FF;
+    opacity:.8;
+    color:#FFFFFF;
+    border-radius:2px 2px 2px 2px;
 }
 
 .userInfoDiv{
@@ -107,7 +116,8 @@ body{
      padding: 5px;
      color: #FF0000;
     float:right;
-    margin-top:3px;
+    margin-top:10px;
+    font-size:12px
 }
 
 .graphicDiv{
@@ -117,13 +127,20 @@ body{
 }
 
 .contentTitleDiv{
-    width: 860px;
+    width: 760px;
     height: 5px;
     margin: 0 auto;
     background-color:#FFFFFF;
-    margin-top:20px;
+    margin-top:-20px;
     padding:20px;
     margin-bottom:10px;
+    border-bottom:1px;
+    border-top:0px;
+    border-right:0px;
+    border-left:0px;
+    border-style:solid;
+    margin-bottom:0px;
+    
 
 }
 
@@ -145,19 +162,29 @@ body{
     margin: 0 auto;
     width: 820px;
     background-color: #FFFFFF;
-    margin-top:20px;
-    padding:40px
+    margin-top:0px;
+    padding:40px;
+    border:solid;
+    border-color:#EFEFEF;
+    
     
 }
 
 .itemDiv{
     padding:10px;
+    height:70px;
+    border-bottom:1px;
+    border-top:0px;
+    border-right:0px;
+    border-left:0px;
+    border-style:solid;
 }
 
 .numberDiv{
     float:left;
     font-size:24px;
     font-weight:800;
+    margin-top:20px;
     
 }
 
@@ -174,7 +201,8 @@ body{
 }
 
 .bookAuthor{
-    float:left;
+    width:200px;
+    
 }
 
 .bookYear{
@@ -195,6 +223,101 @@ body{
 
 .checkBox{
     float:left;
+}
+
+.loginDiv{
+    float:right;
+    width:217px;
+    background-color:#FFFFFF;
+    border:solid;
+    border-color:#EEEEEE;
+    padding-bottom:20px;
+    
+}
+.searchDiv{
+    margin:0 auto;
+    width:200px;
+    height:20px;
+    background-color:#EEEEEE;
+    margin-top:10px;
+    
+}
+.usernameTitle{
+    width:90px;
+    float:left;
+    margin-bottom:0px;
+    margin-left:11px;
+    font-size:12px;
+    font-size:12px;
+}
+.passwordTitle{
+    width:90px;
+    float:left;
+    margin-bottom:0px;
+    margin-left:12px;
+    font-size:12px;
+}
+.username{
+    width:93px;
+    height:20px;
+    margin-left:10px;
+    margin-top:0px;
+    background-color:#EEEEEE;
+    float:left;
+}
+.password{
+    width:92px;
+    height:20px;
+    margin-left:10px;
+    background-color:#EEEEEE;
+    float:left;
+}
+.checkBoxRemember{
+    float:left;
+    font-size:10px;
+    margin:10px;
+    margin-top:15px;
+    
+}
+.checkBoxText{
+    position:relative;
+    top:-3px;
+}
+.loginButton{
+    width:100px;
+    height:20px;
+    margin-right:11px;
+    margin-top:10px;
+    background-color:#EEEEEE;
+    float:right;
+    background-color:#2693FF;
+    height:20px;
+    padding-top:5px;
+    text-align:center;
+    font-size:12px;
+    color:#FFFFFF;
+}
+.forgotPassword{
+    float:left;
+    text-align:center;
+    width:220px;
+    font-size:12px;
+    margin-top:10px;
+    margin-bottom:0px;
+    color:#2693FF;
+
+}
+.createButton{
+    width:195px;
+    height:20px;
+    margin-right:11px;
+    margin-top:0px;
+    float:right;
+    height:20px;
+    padding-top:5px;
+    text-align:center;
+    font-size:12px;
+    color:#2693FF;
 }
 
 
